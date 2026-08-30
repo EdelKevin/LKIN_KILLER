@@ -1,0 +1,27 @@
+# Personal resume content — never push
+# All Phase 0 outputs + their rendered PDF/DOCX live under profile/
+profile/
+outputs/
+
+# Source resume (operator's input to Phase 0)
+*.docx
+!build_docx.py
+
+# Legacy / external artifacts
+user_requirements.md
+
+# macOS junk
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+*.swp
